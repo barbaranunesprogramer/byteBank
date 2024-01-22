@@ -1,0 +1,20 @@
+* Cada transação realizada no sistema deve possuir SOMENTE as seguintes informações:
+  1) Data da Transação (Date)
+  2) Tipo de Transação (Depósito, Transferência, Pagamento de Boleto)
+  3) Valor da Transação (valor maior que zero)
+
+* Sempre que a transação for do tipo DEPÓSITO, o valor da transação deve ser adicionado ao saldo da conta.
+* Sempre que a transação for do tipo TRANSFERÊNCIA ou PAGAMENTO DE BOLETO, o valor da transação deve ser subtraído do saldo da conta.
+* O saldo deve sempre ser atualizado na tela da aplicação a cada transação realizada.
+
+
+as informações da conta deve ficar num modulo especifico "conta".
+-Saldo 
+-Data de Acesso
+-registros de Transação realizada
+-Historico  de transação
+
+*os componentes
+
+-nova transação: deve apenas coletar as informações no formulario  e rapassar para o dado do modulo Conta
+- saldo : deve exibir as informaçoes de data de ascesso e do saldo para o usuario na interface acessando esses dados atraves do modulo
